@@ -1,0 +1,26 @@
+{
+  "name": "workout-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smcc811/workout-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smcc811/workout-project/issues"
+  },
+  "homepage": "https://github.com/smcc811/workout-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.10"
+  }
+}
